@@ -1,0 +1,166 @@
+body {
+    background-color:#333;  
+    font-family:Arial, Helvetica, sans-serif;  
+    text-align:center;
+}
+ 
+img  {
+    border:none;
+}
+ 
+#loading-container {
+    padding:16px 0px 16px 0px;
+    text-align:center;  
+}
+  
+#twitter-feed {
+    width:27%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    border-radius:12px;
+    background-color:#FFF;
+    color:#333;
+    float:right;
+    height:550px;
+}
+
+#twitter-search-holder {
+  width:520px;
+  margin:25px auto 0 auto;
+}
+
+#twitter-search-txt {
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+}
+
+#twitter-search-btn {
+    background-color: #4d90fe;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4d90fe',EndColorStr='#4787ed');
+    border: 1px solid #3079ed;
+    color: #fff!important;
+    margin: 0 0;
+    height:30px;
+    font-weight:bold;
+    padding:8px;
+    border-radius:2px;
+    line-height:12px;
+}
+  
+#twitter-feed h1 {
+    color:#5F5F5F;
+    margin:0px;
+    padding:9px 0px 9px 0px;
+    font-size:18px;
+    font-weight:lighter;
+}
+  
+.twitter-article, #loading-container {
+    width:100%;
+    border-top:1px dotted #CCC;
+    float:left; 
+    padding:8px 0px 8px 0px;
+    position:relative;
+} 
+.twitter-pic {
+    position:absolute;
+}
+  
+.twitter-pic img {
+    float:left;
+    border-radius:7px;  
+    border:none;
+}
+  
+/* -------- TEXT STYLING ------*/
+.twitter-text {
+    width:100%;
+    float:left;
+    font-size:11px;
+    padding-left:52px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.twitter-text p {
+    margin:0px;
+    line-height:15px;   
+}
+.twitter-text a,  h1 a {
+    color: #00acee;
+    text-decoration: none;
+}
+.twitter-text a:hover,  h1 a:hover {
+    text-decoration: underline;
+    color: #00acee;
+}
+  
+.tweet-time {
+    font-size:10px;
+    color:#878787;
+    float:right;
+}
+.tweet-time a, .tweet-time a:hover {
+    color:#878787;
+}
+  
+.tweetprofilelink a {
+    color:#444;
+}
+.tweetprofilelink a:hover {
+    color:#444;
+}
+  
+/* -------- FEED  ACTIONS ------*/
+#twitter-actions {
+    width:75px;
+    float:right;
+    margin-right:5px;   
+    margin-top:3px;
+    display:none;
+}
+.intent {
+    width:25px;
+    height:16px;
+    float:left; 
+}
+.intent a{
+    width:25px;
+    height:16px;
+    display:block;
+    background-image:url(../images/tweet-actions.png);
+    float:left; 
+} 
+.intent a:hover{
+    background-position:-25px 0px;
+} 
+  
+#intent-retweet a{
+    background-position:0px -17px;
+} 
+#intent-retweet a:hover{
+    background-position:-25px -17px;
+} 
+#intent-fave a{
+    background-position:0px -36px;
+} 
+#intent-fave a:hover{
+    background-position:-25px -36px;
+} 
+
+#retweet-indicator {
+    width:14px;
+    height:10px;
+    background-image:url(../images/tweet-actions.png);
+    background-position:-5px -54px;
+    margin-top:3px;
+    float:left;
+}
